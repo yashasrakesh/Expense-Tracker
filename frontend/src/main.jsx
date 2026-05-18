@@ -93,7 +93,7 @@ const client = new ApolloClient({
 	uri:
 		import.meta.env.MODE ===
 		"development"
-			? "http://localhost:4000/graphql"
+			? "https://expense-tracker-api-production-2e87.up.railway.app/graphql"
 			: "/graphql",
 
 	cache: new InMemoryCache(),

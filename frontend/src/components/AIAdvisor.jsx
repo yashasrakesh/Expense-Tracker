@@ -21,7 +21,7 @@ const AIAdvisor = ({
 		console.log("Sending request");
 
 		const res = await axios.post(
-			"http://localhost:4000/api/ai/analyze",
+			"https://expense-tracker-api-production-2e87.up.railway.app/api/ai/analyze",
 			{
 				transactions,
 			}
